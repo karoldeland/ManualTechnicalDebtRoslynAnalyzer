@@ -1,0 +1,1 @@
+Roslyn Analyzer used to generate manual technical debt in Sonarqube.

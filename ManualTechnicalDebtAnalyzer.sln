@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualTechnicalDebtAnalyzer", "ManualTechnicalDebtAnalyzer\ManualTechnicalDebtAnalyzer\ManualTechnicalDebtAnalyzer.csproj", "{D7C58A36-B669-4C48-81B8-38E29759C92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualTechnicalDebtAnalyzer.Test", "ManualTechnicalDebtAnalyzer\ManualTechnicalDebtAnalyzer.Test\ManualTechnicalDebtAnalyzer.Test.csproj", "{BB02D35C-F6D3-4DA3-9100-F636A7BCF194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualTechnicalDebtAnalyzer.Vsix", "ManualTechnicalDebtAnalyzer\ManualTechnicalDebtAnalyzer.Vsix\ManualTechnicalDebtAnalyzer.Vsix.csproj", "{B5836799-57E5-4021-8472-1DE182D7F00E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{942F42FF-CB54-40D9-9AAD-B186C2C0727B}"
+	ProjectSection(SolutionItems) = preProject
+		ManualTechnicalDebtAnalyzer.1.0.sqale.xml = ManualTechnicalDebtAnalyzer.1.0.sqale.xml
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C58A36-B669-4C48-81B8-38E29759C92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C58A36-B669-4C48-81B8-38E29759C92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C58A36-B669-4C48-81B8-38E29759C92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C58A36-B669-4C48-81B8-38E29759C92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB02D35C-F6D3-4DA3-9100-F636A7BCF194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB02D35C-F6D3-4DA3-9100-F636A7BCF194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB02D35C-F6D3-4DA3-9100-F636A7BCF194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB02D35C-F6D3-4DA3-9100-F636A7BCF194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5836799-57E5-4021-8472-1DE182D7F00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5836799-57E5-4021-8472-1DE182D7F00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5836799-57E5-4021-8472-1DE182D7F00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5836799-57E5-4021-8472-1DE182D7F00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
